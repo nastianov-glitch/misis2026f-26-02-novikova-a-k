@@ -2,7 +2,10 @@ print("=== Restaurant Bill Calculator ===") # Английский, чтобы �
 dish_input = input("What did you order? (pizza/sushi/burger/fries): ").lower()
 
 # Берем только первое слово, если ввели несколько блюд через пробел
-dish = dish_input.split()[0] if dish_input else "" # Берем только первое слово, при вводе нескольких блюд через пробел
+if dish_input:
+    dish = dish_input.split()[0]  
+else:
+    dish=" " # Берем только первое слово, при вводе нескольких блюд через пробел
 
 count = int(input("How many portions? "))
 people = int(input("For how many people? "))

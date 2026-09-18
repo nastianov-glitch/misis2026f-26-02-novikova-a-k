@@ -9,12 +9,15 @@ def split(total, people):
     return total / people
 
 dish_input = input("Dish (pizza/sushi/burger/fries): ").lower()
-dish = dish_input.split()[0] if dish_input else ""
+if dish_input:
+    dish = dish_input.split()[0]  
+else:
+    dish=" "
 
 count = int(input("Portions: "))
 people = int(input("People: "))
 
-total = calct(get_price(dish), count)
+total = round(calct(get_price(dish), count),2)
 per_person = round(split(total, people), 2)
 
 print("Total:", total, "rub.")
