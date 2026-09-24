@@ -1,0 +1,14 @@
+# Папки сборки CMake
+build/
+cmake-build-*/
+
+# Артефакты компиляции
+*.o
+*.obj
+*.exe
+*.dSYM/
+
+# Файлы IDE
+.idea/
+.vs/
+.vscode/c_cpp_properties.json
