@@ -17,7 +17,7 @@ int main() {
                     int dBottom = 9 - i;
                     int dLeft = j;
                     int dRight = 9 - j;
-                    score += min(min(dTop, dBottom), min(dLeft, dRight)) + 1;
+                     //score += min(min(dTop, dBottom), min(dLeft, dRight)) + 1;
                 }
             }
         }
