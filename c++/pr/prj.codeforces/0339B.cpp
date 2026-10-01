@@ -5,7 +5,7 @@ int main() {
     int n, m;
     std::cin >> n >> m;
 
-    long long total = 0;   // общее время (может быть большим)
+    long long total = 0;   
     int current = 1;       // текущий дом, начинаем с 1
 
     for (int i = 0; i < m; i++) {
