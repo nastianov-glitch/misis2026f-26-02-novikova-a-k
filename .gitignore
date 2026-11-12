@@ -12,3 +12,7 @@ cmake-build-*/
 .idea/
 .vs/
 .vscode/c_cpp_properties.json
+
+.vscode/
+.DS_Store
+build/
