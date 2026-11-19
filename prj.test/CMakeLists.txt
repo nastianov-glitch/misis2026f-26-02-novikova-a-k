@@ -1,8 +1,5 @@
-add_executable(complextest complextest.cpp)
-target_link_libraries(complextest complex)
+add_executable(complex_test complex_test.cpp)
+target_link_libraries(complex_test complex)
 
-add_executable(rationaltest rationaltest.cpp)
-target_link_libraries(rationaltest rational)
-
-add_executable(stacks stacks.cpp)
-target_link_libraries(stacks rational)
+add_executable(rational_test rational_test.cpp)
+target_link_libraries(rational_test rational)
