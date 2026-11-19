@@ -7,13 +7,11 @@ add_executable(0617a.v01 0617a.cpp)
 add_executable(0617a.v02 0617a.v02.cpp)
 add_executable(0617a.v03 0617a.v03.cpp)
 
-add_executable(1352a 1352a.cpp)
-add_executable(1352a.v02 1352a.v02.cpp)
-
 add_executable(0276a 0276a.cpp)
 add_executable(0339b 0339b.cpp)
 add_executable(1330a 1330a.cpp)
 
+add_executable(1352a 1352a.cpp)
 add_executable(1352a.v02 1352a.v02.cpp)
 add_executable(1352a.v03 1352a.v03.cpp) 
 

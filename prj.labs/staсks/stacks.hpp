@@ -1,6 +1,6 @@
 #pragma once
-#ifndef STAKS_STACKS_HPP_20251128
-#define STAKS_STACKS_HPP_20251128
+#ifndef STACKS_STACKS_HPP_20251128
+#define STACKS_STACKS_HPP_20251128
 
 #include <cstdint>
 #include <cstddef>

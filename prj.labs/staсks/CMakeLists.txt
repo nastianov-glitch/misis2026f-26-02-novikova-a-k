@@ -1,0 +1,1 @@
+add_library(stacks stacks.cpp stacks.hpp)
