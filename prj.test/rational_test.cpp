@@ -1,7 +1,7 @@
 #include <rational/rational.hpp>
 
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include <doctest/doctest.h>
+#include <doctest.h>
 
 TEST_CASE("[rational] - ctor default") {
   Rational r0;
