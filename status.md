@@ -1,4 +1,4 @@
-STAMP: 20261119-082041
+STAMP: 20261119-180911
 ERROR: file codeforces.id is absent
 ERROR: file codeforces.id is absent
 ERROR: file prj.codeforces/0004a.cpp is absent
@@ -23,8 +23,6 @@ ERROR: file prj.codeforces/1701a.cpp is absent
 ERROR: file prj.labs/stacka/CMakeLists.txt is absent
 ERROR: file prj.labs/queuea/CMakeLists.txt is absent
 ERROR: file prj.labs/stackl/CMakeLists.txt is absent
-ERROR: file prj.test/complex_test.cpp is absent
-ERROR: file prj.test/rational_test.cpp is absent
 ERROR: CMake generator failed
 ERROR: invalid file name 1872
 ERROR: lab complex - test build failed
