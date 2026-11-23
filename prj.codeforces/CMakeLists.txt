@@ -7,7 +7,7 @@ add_executable(1352a 1352a.cpp)
 
 add_executable(1404a 1404a.cpp)
 add_executable(1670b 1670b.cpp)
-add_executable(1872 1872.cpp)
+add_executable(1872a 1872a.cpp)
 
 add_executable(1873c 1873c.cpp)
 add_executable(1873cm 1873cm.cpp)

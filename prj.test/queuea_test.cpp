@@ -1,7 +1,6 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include <queuea/queuea.hpp>
-#include <doctest.h> // или как у вас подключена библиотека
-
+#include <doctest.h> 
 TEST_CASE("QueueA basic tests") {
     QueueA q;
     CHECK(q.is_empty() == true);
