@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(codeforces)
 
 add_executable(0276a 0276a.cpp)
 add_executable(0339b 0339b.cpp)
