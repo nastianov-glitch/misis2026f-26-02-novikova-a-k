@@ -1,6 +1,7 @@
 #include "queuea.hpp"
 #include <algorithm>
 #include <stdexcept>
+#include <utility>
 
 QueueA::QueueA(const QueueA& src) {
   if (!src.is_empty()) {
@@ -9,7 +10,7 @@ QueueA::QueueA(const QueueA& src) {
     tail_ = count - 1;
     size_ = (count + 4) / 4 * 4;
     data_ = new T[size_];
-    if (src.head_ < src.tail_) {
+    if (src.head_ <= src.tail_) { 
       std::copy(src.data_ + src.head_, src.data_ + src.tail_ + 1, data_);
     } else {
       std::copy(src.data_ + src.head_, src.data_ + src.size_, data_);
@@ -17,6 +18,8 @@ QueueA::QueueA(const QueueA& src) {
     }
   }
 }
+
+// ... остальное без изменений
 
 QueueA& QueueA::operator=(const QueueA& src) {
   if (this != &src) {

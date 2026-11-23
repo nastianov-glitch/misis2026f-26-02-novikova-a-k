@@ -70,10 +70,10 @@ vcpkg_installed/
 Testing/
 .cache/
 
-.vscode/
 .DS_Store
-build/
-
-bin/
 *.dSYM/
-.DS_Store
+bin/
+bin.dbg/
+bin.rel/
+bin.relwithdbg/
+build*/
