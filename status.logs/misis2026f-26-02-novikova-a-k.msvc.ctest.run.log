@@ -1,1 +1,28 @@
 Test project D:/projects/misis2026f-check/misis2026f-26-02-novikova-a-k/build.check
+    Start 1: doctest_complex
+    Start 2: doctest_complex_io
+    Start 3: doctest_rational
+    Start 4: doctest_rational_io
+    Start 5: doctest_queuea
+Could not find executable D:/projects/misis2026f-check/misis2026f-26-02-novikova-a-k/bin.check/doctest_queuea.exe
+Looked in the following places:
+D:/projects/misis2026f-check/misis2026f-26-02-novikova-a-k/bin.check/doctest_queuea.exe
+D:/projects/misis2026f-check/misis2026f-26-02-novikova-a-k/bin.check/doctest_queuea.exe.exe
+D:/projects/misis2026f-check/misis2026f-26-02-novikova-a-k/bin.check/Release/doctest_queuea.exe
+D:/projects/misis2026f-check/misis2026f-26-02-novikova-a-k/bin.check/Release/doctest_queuea.exe.exe
+Release/D:/projects/misis2026f-check/misis2026f-26-02-novikova-a-k/bin.check/doctest_queuea.exe
+Release/D:/projects/misis2026f-check/misis2026f-26-02-novikova-a-k/bin.check/doctest_queuea.exe.exe
+1/5 Test #5: doctest_queuea ...................***Not Run   0.00 sec
+2/5 Test #1: doctest_complex ..................   Passed    0.19 sec
+3/5 Test #2: doctest_complex_io ...............***Failed    0.14 sec
+4/5 Test #3: doctest_rational .................   Passed    0.09 sec
+5/5 Test #4: doctest_rational_io ..............***Failed    0.04 sec
+
+40% tests passed, 3 tests failed out of 5
+
+Total Test time (real) =   0.26 sec
+
+The following tests FAILED:
+	  2 - doctest_complex_io (Failed)
+	  4 - doctest_rational_io (Failed)
+	  5 - doctest_queuea (Not Run)

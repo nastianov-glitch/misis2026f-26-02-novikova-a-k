@@ -1,1 +1,4 @@
-No tests were found!!!
+Unable to find executable: D:/projects/misis2026f-check/misis2026f-26-02-novikova-a-k/bin.check/doctest_queuea.exe
+Errors while running CTest
+Output from these tests are in: D:/projects/misis2026f-check/misis2026f-26-02-novikova-a-k/build.check/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
